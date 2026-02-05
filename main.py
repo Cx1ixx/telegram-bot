@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 import yt_dlp
 
 # Get token from Koyeb environment variable
-BOT_TOKEN = os.getenv("8502968935:AAEcXRjNIkLc-UureHcoJ7dhUB1YmkLyrvo")
+BOT_TOKEN = os.getenv("8502968935:AAHbjrbbpj3MkydJMabiKT1VOtjQ5JpEDtM")
 
 # Setup logging for Koyeb
 logging.basicConfig(
@@ -178,3 +178,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
